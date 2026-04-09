@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pronostico del tiempo</title>
+    <title>Pronóstico del tiempo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main class="container">
         <h1>Pronóstico del tiempo</h1>
-        <div id="weather-output" class="card">Cargando...</div>
+        <div id="weather-output" class="dashboard" aria-live="polite">
+            <p class="dashboard__loading">Cargando…</p>
+        </div>
     </main>
     <script src="api.js"></script>
 </body>
