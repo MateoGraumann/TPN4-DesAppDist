@@ -19,8 +19,6 @@ en el navegador.
 Para poder mostrar la información del clima como el resultado del json, se deberá utilizar la plataforma API REST de: https://openweathermap.org/
 El desarrollador deberá contar con un API keys para poder acceder a la data de openweather..
 
-text´´´
 Ejemplo link de API endpoint:
 https://api.openweathermap.org/data/2.5/weather?q=concepcion del
 uruguay,3260&appid=numero_de_la_key´
-´´´
